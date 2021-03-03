@@ -1,4 +1,4 @@
-# Uladzimit Litsiuk
+# Uladzimir Litsiuk
 
 ## Contact info:
 
