@@ -81,13 +81,15 @@ h1 {
 .about h2,
 .skills h2,
 .personal-info h2,
+.code h2,
 .education h2 {
   margin: 2% 0;
   color: rgb(72, 136, 136);
 }
 
 .summary,
-.education-info {
+.education-info,
+.my-code {
   line-height: 25px;
   font-weight: bolder;
 }
@@ -115,7 +117,11 @@ aside i {
 }
 
 .personal-info {
-  padding-top: 45%;
+  padding-top: 30%;
+}
+
+.code {
+  padding-top: 60%;
 }
 
 .education {
@@ -130,6 +136,8 @@ footer {
   font-weight: bolder;
 }
 
+.personal-info a,
+.code a,
 footer a {
   text-decoration: none;
   color: tomato;
