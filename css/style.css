@@ -90,6 +90,7 @@ h1 {
 .summary,
 .education-info,
 .my-code {
+  padding-bottom: 10px;
   line-height: 25px;
   font-weight: bolder;
 }
@@ -101,7 +102,7 @@ h1 {
 }
 
 .skills {
-  padding-top: 27%;
+  padding-top: 23%;
   display: flex;
   align-items: center;
 }
