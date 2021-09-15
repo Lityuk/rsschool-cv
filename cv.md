@@ -38,7 +38,7 @@ document.body.append(newUl);
 newUl.innerHTML = '';
 
 function listGenerator(parent) {
-  let question = confirm('Вы хотите создать новый список');
+  let question = confirm('Вы хотите создать список');
   if (question) {
     let parrentElement = document.querySelector(parent);
     let newUl = document.createElement('ul');
