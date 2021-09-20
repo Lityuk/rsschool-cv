@@ -57,6 +57,13 @@ img {
   border-radius: 25px;
 }
 
+figcaption {
+  font-weight: bolder;
+  text-align: center;
+}
+
+
+
 .personal-info li {
   line-height: 25px;
   list-style: none;
@@ -108,6 +115,7 @@ h1 {
 
 .skills-wrapper {
   width: 30%;
+  margin-bottom: 20px;
 }
 
 aside i {
