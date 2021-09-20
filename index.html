@@ -5,10 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/an-old-hope.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
     <script
       src="https://kit.fontawesome.com/06881388b1.js"
       crossorigin="anonymous"
     ></script>
+
     <title>My CV</title>
   </head>
   <body>
@@ -25,7 +34,7 @@
       </header>
       <main>
         <div class="leftside">
-          <img src="./img/Photo.png" alt="my-photo" />
+          <figure><img src="./img/Photo.png" alt="my-photo" /></figure>
           <section class="personal-info">
             <h2>Contacts</h2>
             <ul>
@@ -43,6 +52,12 @@
               See examples of my code on my
               <a href="https://github.com/Lityuk"> github page</a>
             </div>
+            <pre><code class="language-javascript">
+  function disemvowel(str) {
+      str = str.replace(/[aeiou]/gi, " ");
+     return str;
+  }
+        </code></pre>
           </section>
         </div>
         <div class="rightside">
@@ -56,7 +71,7 @@
               I am an communicative and responsible person. I’m a quick learner
               and a team player. My objective: looking for a career start as a
               front‐end developer with the future grow to full‐stack.
-              <p>My English level - Pre-Intermediate (A2/B1)</p>
+              <p>My English level - Pre-Intermediate (B1)</p>
             </div>
           </section>
           <section class="skills">
@@ -87,8 +102,7 @@
         </div>
       </main>
       <footer>
-        See implementation description on
-        <a href="https://youtu.be/uONKhYUPJHA">YouTube</a>
+        <h3><a href="https://github.com/Lityuk">2021 Github</a></h3>
       </footer>
     </div>
   </body>
